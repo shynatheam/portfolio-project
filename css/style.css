@@ -5,7 +5,8 @@ body {
     /* Centers the website horizontally */
     display: flex;
     justify-content: center;
-  padding-top: 150px;
+    padding-top: 150px;
+    margin: 0;
 }
 .container {
    max-width: 600px;
@@ -34,6 +35,13 @@ html{
     scroll-behavior: smooth;
 }
 #aboutme{
-    margin-top: 80px;
+    width: 100%;
+    margin-top: 220px;
+    padding: 20px;
+    border: 1px solid darkred;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
 }
 
