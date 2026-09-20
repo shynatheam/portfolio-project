@@ -72,3 +72,6 @@ main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: darkkhaki;
 }
+.skill-card:hover{
+    transform: translateY(-5px);
+}
