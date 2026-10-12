@@ -44,6 +44,7 @@ html {
   padding: 20px;
   border: 1px solid #978e47;
   box-sizing: border-box;
+  scroll-margin-top: 50px;
 }
 main {
   width: 100%;
@@ -53,6 +54,7 @@ main {
   margin-top: 40px;
   padding: 20px;
   box-sizing: border-box;
+  scroll-margin-top: 100px;
 }
 .skill-container {
   display: flex;
@@ -97,6 +99,7 @@ main {
   margin-top: 40px;
   padding: 20px;
   box-sizing: border-box;
+  scroll-margin-top: 100px;
 }
 
 /* Arrange the project cards */
@@ -217,6 +220,7 @@ main {
 /* Education & journey_table Section */
 #journey_table {
     padding: 60px 20px;
+    scroll-margin-top: 100px;
 }
 
 .exp_container {
