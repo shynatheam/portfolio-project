@@ -271,3 +271,45 @@ main {
     background-color: #efeddf;
 }
 
+
+/* Activity 6 - Navigation Menu */
+/* Navigation bar */
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -.055em;
+    padding: 20px 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0; /*para naa ra ang nav bar pag mag scroll2*/
+    background: white;
+
+}
+
+.logo {
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    letter-spacing: 0.3px;
+}
+
+.nav-links a:hover {
+    color: #978e47;
+}
