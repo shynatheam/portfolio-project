@@ -211,3 +211,62 @@ main {
 .close-button:hover {
   background-color: #7a7238;
 }
+
+/* ===== Activity 5 - Education and Experience Section ===== */
+
+/* Education & journey_table Section */
+#journey_table {
+    padding: 60px 20px;
+}
+
+.exp_container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Learning_Journey {
+    color: black;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+/* para molukop tanan sa max niya na width ug para sa table ra ang ma scroll horizontally and dili sa entire page*/
+.table-wrap {
+    width: 100%;
+    overflow-x: auto;
+}
+
+#journey_table p {
+  color: #333;
+  letter-spacing: 2px;
+}
+
+/* Table design (giusa ang borders sa mga table cells) */
+#journey_table table {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/* Table header */
+#journey_table th {
+    background-color: #978e47;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd5b5;
+}
+
+/* Table cells */
+#journey_table td {
+    padding: 15px;
+    text-align: left;
+    color: #444;
+    border: 1px solid #ddd5b5;
+}
+
+/* Hover effect */
+#journey_table tbody tr:hover {
+    background-color: #efeddf;
+}
