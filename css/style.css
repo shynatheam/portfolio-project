@@ -39,10 +39,9 @@ html {
   scroll-behavior: smooth;
 }
 #aboutme {
-  width: 100%;
-  margin-top: 220px;
+  width: 95%;
+  margin: 150px auto 0;
   padding: 20px;
-  border: 1px solid #978e47;
   box-sizing: border-box;
   scroll-margin-top: 50px;
 }
@@ -177,7 +176,7 @@ main {
   display: block;
 }
 
-/* Mao nani ang style sa pproject card dayon if ipakita na ang project details */
+/* Mao nani ang style sa project card dayon if ipakita na ang project details */
 .project-card:has(.project-radio:checked) {
   width: 500px;
   padding: 25px;
@@ -408,4 +407,202 @@ main {
 
 .contact_button:hover {
   background-color: #625a32;
+}
+
+/* ===== Activity 8 - Responsive Design ===== */
+
+/* Tablet screens */
+@media (max-width: 1032px) {
+
+  /* Navigation */
+  .navbar {
+    padding: 20px 20px;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Main */
+  .container {
+    width: 90%;
+    padding-top: 100px;
+  }
+
+  .container h1 {
+    font-size: 28px;
+  }
+
+  /* About Me */
+  #aboutme {
+    width: 95%;
+    margin: 150px auto 0;
+    padding: 20px;
+  }
+
+  /* Skills and Projects */
+  .skill-card {
+    width: 200px;
+    max-width: 100%;
+  }
+
+  .project-card {
+    max-width: 100%;
+  }
+
+  .project-card:has(.project-radio:checked) {
+    width: 500px;
+    max-width: 500px;
+  }
+
+  /* Learning Journey table */
+  .table-wrap {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  #journey_table table {
+    width: 100%;
+  }
+
+  /*para di mo lapas ang text sa cell/container*/
+  #journey_table th,
+  #journey_table td {
+    padding: 10px;
+    overflow-wrap: anywhere;
+  }
+
+  /* Contact form */
+  .content {
+    width: 100%;
+  }
+
+  .form-row {
+    flex-wrap: wrap;
+  }
+
+  .form-field {
+    min-width: 0;
+  }
+}
+
+
+/* Mobile phone screens */
+@media (max-width: 480px) {
+
+  /* Navigation */
+  .navbar {
+    flex-direction: column;
+    padding: 15px 10px;
+  }
+
+  .nav-links {
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+  }
+
+  /* Main heading */
+  .container {
+    width: 90%;
+    padding-top: 100px;
+  }
+
+  .container h1 {
+    font-size: 24px;
+  }
+
+  .container h3 {
+    font-size: 18px;
+  }
+
+  .myself {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* About Me */
+  #aboutme {
+    width: 95%;
+    margin-top: 100px;
+    padding: 15px;
+  }
+
+  #aboutme h2,
+  #skills h2,
+  .Title_Projects,
+  .Learning_Journey {
+    font-size: 23px;
+  }
+
+  #aboutme p,
+  #aboutme li {
+    overflow-wrap: anywhere;
+  }
+
+  /* Skills */
+  #skills,
+  #projects {
+    padding: 15px;
+  }
+  
+  .skill-card,
+  .project-card {
+    width: 100%;
+  }
+
+  .project-card:has(.project-radio:checked) {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .project-card:has(.project-radio:checked) .project-details p {
+    font-size: 16px;
+  }
+
+  .project-card img {
+    max-width: 100%;
+  }
+
+  /* Learning Journey */
+  #journey_table {
+    padding: 40px 10px;
+  }
+
+  #journey_table th,
+  #journey_table td {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  /* Contact */
+  #contact {
+    padding: 45px 15px;
+  }
+
+  #contact h2 {
+    font-size: 28px;
+  }
+
+  #contact p {
+    line-height: 1.8;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .form-field {
+    width: 100%;
+  }
+
+  .contact_button {
+    max-width: 100%;
+  }
 }
